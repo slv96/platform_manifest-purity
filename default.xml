@@ -301,7 +301,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -310,7 +310,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -438,5 +438,6 @@
   <project path="manifest" name="platform_manifest" remote="kitkatpurity" revision="kitkat" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-11.0" />
   <project path="vendor/lge" name="platform_vendor_lge" remote="kitkatpurity" revision="kitkat" />
-
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/asus" name="platform_vendor_asus" remote="kitkatpurity" revision="kitkat" />
 </manifest>
