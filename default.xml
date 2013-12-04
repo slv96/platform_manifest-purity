@@ -29,10 +29,10 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo" name="platform_device_asus_flo" groups="device,flo" remote="kitkatpurity" revision="kitkat" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" groups="device,grouper" remote="kitkatpurity" revision="kitkat" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
+  <project path="device/asus/tilapia" name="platform_device_asus_tilapia" groups="device,grouper" remote="kitkatpurity" revision="kitkat" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -97,7 +97,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="platform_external_clang" groups="pdk" remote="kitkatpurity" revision="kitkat" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -117,7 +117,7 @@
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/flac" name="platform_external_flac" groups="pdk" remote="kitkatpurity" revision="kitkat" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
@@ -244,7 +244,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="kitkatpurity" revision="kitkat" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="kitkatpurity" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -440,4 +440,9 @@
   <project path="vendor/lge" name="platform_vendor_lge" remote="kitkatpurity" revision="kitkat" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="kitkatpurity" revision="kitkat" />
   <project path="vendor/asus" name="platform_vendor_asus" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/widevine" name="platform_vendor_widevine" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/nvidia" name="platform_vendor_nvidia" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/invensense" name="platform_vendor_invensense" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/purity" name="platform_vendor_purity" remote="kitkatpurity" revision="kitkat" />
+
 </manifest>
