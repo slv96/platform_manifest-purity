@@ -444,5 +444,7 @@
   <project path="vendor/nvidia" name="platform_vendor_nvidia" remote="kitkatpurity" revision="kitkat" />
   <project path="vendor/invensense" name="platform_vendor_invensense" remote="kitkatpurity" revision="kitkat" />
   <project path="vendor/purity" name="platform_vendor_purity" remote="kitkatpurity" revision="kitkat" />
-
+  <project path="vendor/elan" name="platform_vendor_elan" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/nxp" name="platform_vendor_nxp" remote="kitkatpurity" revision="kitkat" />
+  <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="kitkatpurity" revision="kitkat" />
 </manifest>
