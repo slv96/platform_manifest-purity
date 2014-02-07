@@ -437,6 +437,8 @@
   <project path="vendor/elan" name="platform_vendor_elan" remote="kitkatpurity" revision="kitkat" />
   <project path="vendor/nxp" name="platform_vendor_nxp" remote="kitkatpurity" revision="kitkat" />
   <project path="vendor/broadcom" name="platform_vendor_broadcom" remote="kitkatpurity" revision="kitkat" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
 
   <!-- Device repo -->
   <project path="device/samsung/u8500-common" name="slv96/platform_device_samsung_u8500-common" remote="github" revision="kitkat" />
